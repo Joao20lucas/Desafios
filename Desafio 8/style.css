@@ -1,0 +1,46 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Lobster+Two&display=swap');
+
+
+:root{
+    --font-destaque:'Lobster Two', cursive;
+    --font-texto:'Zilla Slab', serif;
+    --font-nav :'Finger Paint', cursive;
+}
+
+body {
+ background-color: gray;
+ text-align: center;
+}
+
+h1{
+    font-family: var(--font-destaque);
+    
+}
+
+p {
+    font-family: var(--font-texto)
+}
+
+a {
+    text-decoration:none;
+}
+
+ol{
+    font-family: var(--font-nav);
+    list-style: none;
+}
+
+.green{
+    color: greenyellow;
+    background-color:green
+}
+
+.yellow{
+    color: rgb(255, 0, 0);
+    background-color: yellow
+}

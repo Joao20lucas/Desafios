@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+:root{
+    --texto: 'Comfortaa', cursive; 
+    --desta: 'Patua One', cursive; 
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    background-color: rgb(190, 190, 190);
+    height: 100vh;
+    text-align: center;
+    font-family: var(--texto)
+}
+
+h1{
+    padding: 1em;
+    font-family: var(--desta);
+}
+
+h2{
+    margin: 1em;
+    font-family: var(--desta);
+}
+
+.neji{
+    border-radius: 10em;
+    border: 2px solid rgb(0, 255, 21);
+    padding:4px;
+    margin-bottom: 2em
+}
+
+.list{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 3px;
+ gap:12px;
+ font-family: var(--texto);
+}
+

@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+
+:root{
+    --destaques: 'Abril Fatface', cursive;
+    --texto: 'Zilla Slab', serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#fundo{
+    animation:fundo 10s ease infinite;
+    background:linear-gradient(230deg, #002ec7, #4a00c2, #7800af,#a800be, #c200a8);
+    height:100vh;
+    background-size: 300% 100%;
+    text-align:center;
+    color: cornsilk;
+    font-family: var(--texto);
+}
+
+@keyframes fundo{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%
+    }
+}
+
+h1{
+    padding: 4em;
+    font-size: 2em;
+    font-family: var(--destaques);
+}
+
+li{
+    padding: 0.5em
+}
+
+abbr{
+    text-decoration:none;
+    font-family: var(--texto)
+}
+
+
